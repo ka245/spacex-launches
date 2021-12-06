@@ -1,3 +1,10 @@
+This application was implemented using React, TypeScript and Redux for state management. 
+It includes:
+* Fetched list of launches from API https://docs.spacexdata.com
+* Each launch includes a link  with "View rocket details"
+* Searching by mission name
+* Sorting is implemented locally using ag-grid to avoid additional calls to API, pressing on the column header will sort the list
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
